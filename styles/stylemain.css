@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    color: #070707;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size : 11px;
+	margin: 0
+}
+h1, 
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    margin: 0em;
+    color: #070707;
+    font-weight : normal;
+    margin-bottom: 1.3ex;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.3em;
+    
+    color: #333;
+    margin-bottom: 2.3ex;
+}
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1em;
+    font-weight: bold;
+}
+h5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+h6 {
+    font-size: 1em;
+    font-weight: bold;
+}
+/* extra Klasse, kann auf berschriften gelegt werden aber ohne margin-bottom */
+div,
+form,
+fieldset,
+input,
+textarea {
+    margin: 0px;
+    padding: 0px;
+}
+select,
+input,
+textarea {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size : 8pt;
+    color: #3e3e3e;
+    border: 1px solid #dadada;
+    padding:2px;	
+}
+blockquote {
+  margin: 0px;
+}
+fieldset {
+    border: none;
+    margin-bottom: 2ex;
+    width: 100%;
+}
+legend {
+    margin-left: 0px;
+    padding: 0px;
+    padding-bottom: 1.4ex;
+}
+p {
+    margin: 0px;
+    margin-bottom: 3ex;
+}
+a,
+a:link{
+    color: #16387c;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+a:visited{
+    color: #16387c;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+a:active {
+    color: #FF0000;
+    text-decoration: none;
+}
+img {
+    border: none;
+}
+#column_3 img.fullwidth {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    height: 1px;
+    margin: 1em 0px 1em 0px;
+}
+table {
+	font-size: 11px
+}
+.clear {
+	clear: both;
+}

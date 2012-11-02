@@ -1,0 +1,47 @@
+body{
+	background:url("images/bg-img2.jpg");
+}
+
+.logouigar img{
+	display: none;
+}
+.logouigar{
+	top: 50px;
+	left: 20px !important;
+	width: 150px;
+	height: 250px;
+	background: url("images/mongolhuu.png");
+}
+#rightlogo{
+	position: fixed !important;
+	display: block;
+	top: 50px;
+	right: 30px !important;
+	width: 87px;
+	height: 250px;
+	background: url("images/mongolohin.png");
+}
+.orange ul.mega-menu {
+	padding-left: 2px !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	background: #8998a8 url(images/bg_light_blue.png) repeat-x 0 -60px !important;
+}
+.orange ul.mega-menu li a {
+	background: url(images/bg_light_blue.png) repeat-x 100% 0 !important;
+}
+
+.orange ul.mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+	background: #e3e3e3 !important;
+}
+
+.orange ul.mega-menu .sub li.mega-hdr li a {
+	padding: 4px 5px 4px 20px;
+	background: url(images/bullet.png) no-repeat 5px 9px !important;
+	font-weight: normal;
+}
+
+.orange ul.mega-menu .sub li.mega-hdr li a:hover {
+	color: #a32403;
+	background: #efefef url(images/bullet_on.png) no-repeat 5px 9px !important;
+}

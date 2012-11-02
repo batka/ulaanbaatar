@@ -1,0 +1,105 @@
+
+/* avator image border style*/
+.imgbdr {
+	border:1px solid #6699FF;
+	padding:1px;
+	margin:3px
+}
+.date{
+	font-size:10px; 
+	color:#666
+}
+.intro{
+	margin:5px 0px 0px 20px; 
+	line-height:1.4em; 
+	text-align:justify
+}
+.graypic a:link, .graypic a:visited, .graypic a:active {color: #F56C2D; text-decoration: none;}
+.graypic a:hover {color: #304B9E; text-decoration: none;}
+
+.post{
+	float:right; 
+	width:73px; height:16px;
+	padding-left:20px; 
+	background-image:url(../images/icon/comments_add.png); 
+	background-position:left; 
+	background-repeat:no-repeat;
+}
+.lightgray .left1 {
+	DISPLAY: inline;
+	width:430px;
+	float:left;
+	text-align:left;
+	margin-left:3px;
+}
+.lightgray .left1 A {
+	FONT-SIZE: 11px; COLOR: #F56C2D; TEXT-DECORATION: underline
+}
+.lightgray .left1 A:hover {
+	FONT-SIZE: 11px; COLOR: #304B9E; TEXT-DECORATION: none
+}
+.lightgray .mid1 {
+	PADDING-TOP: 0px;
+	float:left
+}
+.lightgray .right1 {
+	DISPLAY: inline;
+	float:right;
+	width:430px;
+	text-align:right;
+	margin-right:3px;
+}
+.lightgray .right1 A {
+	FONT-SIZE: 11px; COLOR: #F56C2D; TEXT-DECORATION: underline;
+}
+.lightgray .right1 A:hover {
+	FONT-SIZE: 11px; COLOR: #304B9E; TEXT-DECORATION: none
+}
+
+.commentlist {
+	FLOAT: left; background-color: #ffffff; width:100%
+}
+.commentlist .header {
+	FONT-SIZE: 11px; FONT-WEIGHT: bold; COLOR: #fff; MARGIN-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-TOP: 5px; PADDING-BOTTOM: 5px; PADDING-RIGHT: 5px; background-color:#a2a2a2;
+}
+.commentlist .header A {
+	FONT-SIZE: 11px; COLOR: #fff; TEXT-DECORATION: underline
+}
+.commentlist .header A:hover {
+	FONT-SIZE: 11px; COLOR: #fff; TEXT-DECORATION: none
+}
+.commentlist LI {
+	FONT-SIZE: 10px; PADDING-BOTTOM: 4px; MARGIN: 0px; WIDTH: PADDING-TOP: 4px; BORDER-BOTTOM: #ececec 1px dotted;  text-align:left; margin:0px 5px 0px 5px;
+}
+.commentlist LI.last {
+	FLOAT: left; FONT-SIZE: 10px; PADDING-BOTTOM: 4px; MARGIN: 0px; WIDTH:100%; PADDING-TOP: 4px; BORDER-BOTTOM: #ececec 0px dotted
+}
+.commentlist LI .img {
+	PADDING: 1px; BORDER: #6699FF 1px solid; WIDTH: 60px; HEIGHT: 60px
+}
+.commentlist LI a:link, .commentlist LI a:visited, .commentlist LI a:active{
+	FONT-SIZE: 11px; COLOR: #F56C2D; 
+}
+.commentlist LI A:hover {
+	FONT-SIZE: 11px; COLOR: #304B9E; text-decoration:underline
+}
+.commentlist LI .commentdetail {
+	FONT-SIZE: 12px; COLOR: #545454; PADDING-TOP: 0px; display: inline block; line-height: 17px; text-align: justify;
+}
+.commentlist LI .commentdate {
+	FONT-SIZE: 10px; COLOR: #545454
+}
+.tdline{
+	BORDER-BOTTOM: #ececec 1px dotted;
+}
+.forumdescr{
+	font-size: 12px;
+	line-height: 17px;
+	text-align: justify;
+}
+.forumdescrtitle{
+	font-family: tahoma;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+}

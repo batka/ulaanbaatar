@@ -1,0 +1,187 @@
+.hdtitle {
+	background: #e3e3e3;
+	border-top: 2px solid #16387c;
+	padding: 5px;
+	text-transform: uppercase;
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+	color: #16387c;
+}
+.hdtitle1 {
+	background: #e3e3e3;
+	border-top: 2px solid #277c16;
+	padding: 5px;
+	text-transform: uppercase;
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+	color: #277c16;
+}
+.hdtitle2 {
+	background: #e3e3e3;
+	border-top: 2px solid #7c161d;
+	padding: 5px;
+	text-transform: uppercase;
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+	color: #7c161d;
+}
+.hdtitle3 {
+	background: #e3e3e3;
+	border-top: 2px solid #7c5916;
+	padding: 5px;
+	text-transform: uppercase;
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+	color: #7c5916;
+}
+.subhd {
+	background: #a0a0a0;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 3px 10px;
+	width: auto;
+}
+#content table {
+    border-collapse: collapse;
+    caption-side: top;
+    empty-cells: show;
+}
+#content th {
+    text-align: center;
+}
+#content td, th {
+    text-align: left;
+}
+#content td,
+#content th {
+    border-style: solid;
+    border-width: 1px;
+    padding: .3em .3em .3em .3em;
+}
+#content td,
+#content th {
+    border-color: #9cbdde;
+    font-weight: normal;
+}
+#content th,
+#content table .even {
+    background: #cfdce5;
+}
+#content table .odd {
+    background: #fff;
+}
+table.legal th{
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	text-align: center;	
+	font-size: 10px;
+}
+table.legal td {
+	border-bottom: 1px dotted #ccc;
+}
+.brderleft{
+	border-left: 3px solid #666;
+	margin-bottom: 10px
+}
+.brderleft a{
+	color: #16387c
+}
+.brderleft a:hover{
+	color: #333333;
+}
+.brderleft h2{
+	font-size: 11px;
+	background: #fff;
+	padding:3px 3px 3px 10px;
+	color: #333;
+	font-weight: bold;
+}
+.brderleft .content{
+	padding: 0 10px 10px 10px
+}
+.brderleft .content .img{
+	float: left;
+	margin-right: 10px
+}
+.brderleft .content .date{
+	font-size: 10px;
+	color: #999
+}
+.brderleft .content .descr{
+	text-align: justify;
+	line-height: 1.5em
+}
+.brderleft .content .more{
+	text-align: right;
+}
+.listbg {
+	background: #ededed;
+}
+.presslist {
+	padding: 10px;
+	margin: 0;
+	list-style: none;
+}
+.presslist h2{
+	font-size: 1.5em;
+	margin: 5px 0 10px 0px
+}
+.topbrdr {
+	position: relative;
+	background: #ffffff;
+	border-top: 2px solid #16387c;
+	padding: 10px;
+	margin-bottom: 1em
+}
+.topbrdr div{
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.topbrdr1 {
+	position: relative;
+	background: #ffffff;
+	border-top: 2px solid #277c16;
+	padding: 10px;
+	margin-bottom: 1em
+}
+.topbrdr1 div{
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.topbrdr3 {
+	position: relative;
+	background: #ffffff;
+	border-top: 2px solid #7c5916;
+	padding: 10px;
+	margin-bottom: 1em
+}
+.topbrdr3 div{
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.pmdate {
+	color: #7c7c7c;
+	margin: 0
+}
+.org {
+	position: absolute;
+	background: #dcdcdc;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
+	float: right;
+	right: 0;
+	top: 1px
+}
+#lawrulehead{
+	background-image: url("../images/web/lawtolgoi.jpg");
+	background-repeat: no-repeat;
+	width: 679px;
+}
+#lawrulehead tr td{
+	font-size: 12px;
+	
+}

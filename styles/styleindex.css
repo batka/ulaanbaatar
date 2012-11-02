@@ -1,0 +1,145 @@
+.logouigar{
+	position: fixed;
+}
+.conter {
+	width: 1020px;
+	box-shadow: 0 2px 10px #aaa;
+	-moz-box-shadow: 0 2px 10px #aaa;
+	-webkit-box-shadow: 0 2px 10px #aaa;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	margin: 1px auto;
+	background: #ffffff
+}
+#main {
+	width: 1000px;
+	margin: 0px auto;
+}
+#main .hdlogo {
+	float: left;
+	width: 300px;
+	height: 70px;
+	background: #fff;
+}
+#main .hdmenu {
+	width: 998px;
+	margin-left: 0px;
+	height: 30px
+}
+#main .hdmap {
+	float: right;
+	margin: 1px 0px 0px 2px;
+	width: 688px;
+	height: 70px;
+	overflow: hidden;
+}
+#main .hdmap img {
+	border: 1px solid #ededed;
+}
+#main .column_1{
+	float: left;
+	width: 730px;
+	margin-right: 10px
+}
+#main .column_2{
+	float: left;
+	width: 260px;
+	margin-bottom: 10px;
+}
+.blhd {
+	border-top: 1px solid #e8edf0; 
+	border-bottom: 1px solid #e8edf0; 
+	margin-top: 10px; 
+	float: right; 
+	width: 260px; 
+	background: #fafafc; 
+	padding: 4px 4px 4px 4px;
+	height: 22px;
+	text-align: right;
+}
+.rdhd {
+	border-top: 1px solid #e8edf0; 
+	border-bottom: 1px solid #e8edf0; 
+	margin-top: 10px; 
+	float: left; 
+	width:615px;
+	background: #fafafc; 
+	padding: 4px 4px 4px 50px;
+	height: 22px;
+	overflow: hidden;
+}
+.rdhd1 {
+	border-top: 1px solid #f0e8e8; 
+	border-bottom: 1px solid #f0e8e8;
+	margin-top: 10px; 
+	float: left; 
+	background: #fcfafa; 
+	padding: 4px;
+	height: 22px;
+	width: 55px;
+	font-weight: bold;
+}
+.rdhd1 img{
+	padding:0px 5px 0px 2px;
+	float:left;
+}
+.rdhd1 a{
+	display: block;
+	margin-top: 2px;
+}
+
+.generalsearch{
+	font-size: 14px;
+	height: 20px;
+}
+.generalsearchb{
+	vertical-align: top;
+	height: 26px;
+	font-size: 14px;
+	background-image: url("../images/web/menu_bg.png");
+	cursor: pointer;
+	color: #666666;
+}
+.generalsearchb:HOVER{
+	background-image: url("../images/web/menu_bgh.png");
+	color: #222222;
+}
+.srchcontent{
+	width: 980px;
+	padding: 5px;
+	border-bottom: 1px solid #ededed;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+}
+
+.srchcontent:HOVER{
+	background-color: #f3f3f3;
+}
+
+.srchcontent .contenttitle{
+	width: 850px;
+	float: left;
+}
+.srchcontent .contenttitle a{
+	font-size: 14px;
+	color: #16387c;
+}
+.srchcontent .contentlink{
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+.srchcontent .contentlink a{
+	font-size: 11px;
+	color: #555555;
+	text-decoration: none;
+}
+
+.srchcontent .contentmore{
+	float: right;
+	font-size: 11px;
+	color: #555555;
+}
+.srchcontent .contentmore img{
+	vertical-align: middle;
+	margin-right: 5px;
+}

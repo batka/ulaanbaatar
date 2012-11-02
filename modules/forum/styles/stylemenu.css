@@ -1,0 +1,34 @@
+.topheader {
+ 	BACKGROUND: url(../images/menu/header.jpg) no-repeat; 
+ 	BACKGROUND-COLOR: #242424;
+ 	height: 70px;
+}
+.topheaderline{
+	border-top: 1px solid #638dc7;
+}
+.topmenuback{
+	BACKGROUND-COLOR: #242424;
+}
+.topmenu div{
+	color: #c9c9c9; 
+	padding: 5px 0px 5px 0px;
+}
+.topmenu a{
+	text-decoration: none;
+}
+.topmenu a:hover{
+	text-decoration: none;
+}
+.mymenu{
+	background-color: #3d3f3c;
+}
+.mymenu div{
+	padding: 3px 0px 3px 0px;
+	color: #888888;
+}
+.mymenu a{
+	text-decoration: none;
+}
+.mymenu a:hover{
+	text-decoration: none;
+}

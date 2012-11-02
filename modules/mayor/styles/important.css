@@ -1,0 +1,87 @@
+.indexformtitle{
+    background-image: url('../images/webhp.jpg') !important;
+    border-color: #0f2fa6 !important;
+}
+
+.indexform{
+    border-top-color: #0f2fa6 !important;
+}
+
+ul#globalnav a.here {
+    background-image: url('../images/webhp.jpg') !important;
+}
+
+ul#globalnav {
+    border-bottom: 2px solid #0f2fa6;
+}
+
+.pageformtitle{
+    background-image: url('../images/webhp.jpg') !important;
+    border-color: #0f2fa6 !important;
+}
+
+.pageform{
+    border-top-color: #0f2fa6 !important;
+}
+
+.formlefttitle{
+    color: #0f2fa6;
+}
+
+.formsub{
+    border-top: 2px solid #0f2fa6;
+}
+
+#leftmenu{
+    background-color: #fff !important;
+}
+
+#leftmenu .title{
+    background-color: #1a39b7 !important;
+}
+
+#leftmenu ul li{
+    padding: 0px;
+}
+
+#leftmenu ul li a{
+    background-color: #b1c1fb !important;
+    border-bottom: 1px solid #5373f3 !important;
+}
+
+#leftmenu ul li a:HOVER{
+    color: #ffffff;
+    background-color: #4b65ce !important;
+    -webkit-transition:background-color 0.5s linear;  
+    -moz-transition:background-color 0.5s linear;  
+    -o-transition:background-color 0.5s linear;  
+    transition:background-color 0.5s linear; 
+}
+
+.menu ul{
+    background-color: #b1c1fb !important;
+}
+
+.menu a {
+    border-right: 1px solid #536aba !important;
+}
+
+.menu ul li{
+    border-bottom: 1px solid #5373f3 !important;
+}
+
+.menu ul li a{
+    border-right: none !important;
+}
+
+.menu ul li a:HOVER{
+    background-color: #4b65ce !important;
+    -webkit-transition:background-color 0.5s linear;  
+    -moz-transition:background-color 0.5s linear;  
+    -o-transition:background-color 0.5s linear;  
+    transition:background-color 0.5s linear;
+}
+
+.subtitle{
+    color: #1a39b7 !important;
+}

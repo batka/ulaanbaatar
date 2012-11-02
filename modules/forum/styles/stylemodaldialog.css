@@ -1,0 +1,82 @@
+
+#dlgcommentrateclose, #dlgmemberclose, #dlgforumclose, #dlgyesnoclose, #dlgaddlistclose {
+	float: right;
+	margin: 2px 1px 0 0;
+	padding: 0px;
+	cursor: pointer;
+}
+
+#dlgcommentrate, #dlgmember, #dlgforum {
+	width: 350px;
+	display: none;
+	background-color: #fff;
+	cursor: default;
+}
+
+#dlgyesno {
+	width: 250px;
+	display: none;
+	background-color: #fff;
+	cursor: default;
+}
+#dlgaddlist {
+	width: 250px;
+	display: none;
+	background-color: #fff;
+	cursor: default;
+}
+
+#dlgcommentrateTabsContainer, #dlgmemberTabsContainer, #dlgforumTabsContainer, #dlgyesnoTabsContainer,#dlgaddlistTabsContainer {
+	display: none;
+	background-color: #fff;
+}
+
+#dlgcommentrateElementsContainer, #dlgmemberElementsContainer, #dlgforumElementsContainer, #dlgyesnoElementsContainer, #dlgaddlistElementsContainer {
+	background-color: #696969;
+	padding: 4px;
+}
+
+.feature {
+	background-color: #fff;
+	padding: 10px;
+	color: #303030;
+}
+.feature A {
+	FONT-SIZE: 11px; COLOR: #06c; TEXT-DECORATION: underline
+}
+.feature A:hover {
+	FONT-SIZE: 11px; COLOR: #06c; TEXT-DECORATION: none
+}
+
+a.rounded {
+	outline: none;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: -moz-inline-box;
+	display: inline-block;
+	overflow: visible;
+}  
+
+a.tab {
+	background-color: #bfbfbf;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px 7px 4px 7px;
+	margin-top: 0.3em;
+	border-bottom: solid 2px #fff;
+}
+
+a.tab:hover {
+	background-color: #696969;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.tab_selected {
+	border-bottom-color: #696969;
+	background-color: #696969;
+}

@@ -1,0 +1,463 @@
+/* TAB MENU BEGIN */
+.tabcontainer {
+	border: 1px solid #638dc7;
+}
+
+.tableft {
+	background-image: url('../images/tabmenuactive_blue_left.png');
+	width: 10px;
+	height: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.tabcenter {
+	background-image: url('../images/tabmenuactive_blue_center.gif');
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+	font-weight: bold;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.tabright {
+	background-image: url('../images/tabmenuactive_blue_right.png');
+	width: 10px;
+	height: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+a.tabtitle {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+a.tabtitle:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+	/* TAB MENU IN ACTIVE */
+	.tableftinactive {
+		width: 10px;
+		height: 25px;
+		float: left;
+	}
+	
+	.tabcenterinactive {
+		font-weight: bold;
+		float: left;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	
+	.tabrightinactive {
+		width: 10px;
+		height: 25px;
+		float: left;
+	}
+	
+	.tabcenterinactive a.tabtitle {
+		color: #244e80;
+		font-weight: bold;
+	}
+	
+	.tabcenterinactivehover a.tabtitle {
+		color: #638dc7;
+		font-weight: bold;
+		text-decoration: underline;
+		
+	}
+	
+	.tableftinactivehover {
+		background-image: url('../images/tabmenuinactive_left.png');
+		width: 10px;
+		height: 25px;
+		background-repeat: no-repeat;
+		float: left;
+	}
+	
+	.tabcenterinactivehover {
+		background-image: url('../images/tabmenuinactive_center.gif');
+		background-repeat: repeat-x;
+		color: #FFFFFF;
+		font-weight: bold;
+		float: left;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	
+	.tabrightinactivehover {
+		background-image: url('../images/tabmenuinactive_right.png');
+		width: 10px;
+		height: 25px;
+		background-repeat: no-repeat;
+		float: left;
+	}
+
+/* TAB MENU END*/
+
+/* TAB MENU BEGIN */
+.subtab .tabcontainer {
+	border: 1px solid #638dc7;
+}
+
+.subtab .tableft {
+	background-image: url('../images/tabmenuactive_left.png');
+	width: 10px;
+	height: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.subtab .tabcenter {
+	background-image: url('../images/tabmenuactive_center.gif');
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+	font-weight: bold;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.subtab .tabright {
+	background-image: url('../images/tabmenuactive_right.png');
+	width: 10px;
+	height: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.subtab a.tabtitle {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.subtab a.tabtitle:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+	/* TAB MENU IN ACTIVE */
+	.subtab .tableftinactive {
+		width: 10px;
+		height: 25px;
+		float: left;
+	}
+	
+	.subtab .tabcenterinactive {
+		font-weight: bold;
+		float: left;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	
+	.subtab .tabrightinactive {
+		width: 10px;
+		height: 25px;
+		float: left;
+	}
+	
+	.subtab .tabcenterinactive a.tabtitle {
+		color: #638dc7;
+		font-weight: bold;
+	}
+	
+	.subtab .tabcenterinactivehover a.tabtitle {
+		color: #638dc7;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	
+	.subtab .tableftinactivehover {
+		background-image: url('../images/tabmenuinactive_left.png');
+		width: 10px;
+		height: 25px;
+		background-repeat: no-repeat;
+		float: left;
+	}
+	
+	.subtab .tabcenterinactivehover {
+		background-image: url('../images/tabmenuinactive_center.gif');
+		background-repeat: repeat-x;
+		color: #FFFFFF;
+		font-weight: bold;
+		float: left;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	
+	.subtab .tabrightinactivehover {
+		background-image: url('../images/tabmenuinactive_right.png');
+		width: 10px;
+		height: 25px;
+		background-repeat: no-repeat;
+		float: left;
+	}
+
+/* TAB MENU END*/
+.tabcontent {
+	border-top: 1px solid #638dc7;
+}
+/* ADDED */
+.subtab .tabcontent {
+	border-top: 1px solid #638dc7;
+}
+.subtab .tabcontent .list-f {
+	border: 1px solid #638dc7;
+	border-top: none;
+}
+/* ADDED */
+.list-f {
+	border: 1px solid #638dc7;
+	border-top: none;
+}
+
+.list-f table {
+	width: 100%;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+	word-break /* */: normal;
+}
+
+.list-f th {
+	font: bold 12px;
+	background-color: #e0e0e0;
+	padding: 4px 8px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.list-f td {
+	vertical-align: top;
+	padding: 8px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+	word-break /* */: normal;
+}
+
+.list-f tr.listbg {
+	background-color: #eaeaea;
+}
+
+.list-f.nomargin {
+	margin: -8px;
+}
+
+.list-f table tr td a {
+	color: #244e80;
+}
+
+.list-f table tr td a:hover {
+	color: #638dc7;
+	text-decoration: underline;
+}
+
+.list-f table tr td a.topicname {
+	color: #638dc7;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.list-f table tr td a.topicname:hover {
+	color: #638dc7;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.list-f table tr td .intro {
+	color: #666666;
+}
+
+.remark {
+	color: #888;
+	font: 11px tahoma;
+}
+.remark a{
+	color: #888;
+	font: 11px tahoma;
+}
+.column {
+	word-wrap: break-word;
+	word-break: break-all;
+	word-break /* */: normal;
+}
+
+.column div.section {
+	float: left;
+	word-wrap: break-word;
+	word-break: break-all;
+	word-break /* */: normal;
+}
+
+.winstyle-r3 {
+	margin-bottom: 15px;
+	clear: both;
+	word-wrap: break-word;
+	word-break: break-all;
+	word-break /* */: normal;
+	border: 1px solid #e0e0e0;
+}
+
+.winstyle-r3 div {
+	padding: 5px 8px;
+	font: bold 11px tahoma;
+	border: none;
+	background-color: #638dc7;
+	color: #fff;
+}
+
+.winstyle-r3 ul {
+	list-style: none;
+	padding: 0 0 0 0px;
+}
+
+.winstyle-r3 ul li a {
+	color: #638dc7;
+}
+
+.winstyle-r3 ul li a:hover {
+	color: #638dc7;
+	text-decoration: underline;
+}
+
+.limit {
+	color: #ff6600;
+	font: 0.85em;
+}
+
+.remark {
+	color: #888;
+	font: 11px tahoma;
+}
+
+.paddedbox12 {
+	padding: 12px;
+}
+
+.greybg {
+	background-color: #efefef;
+}
+
+.forumtopictoptitle {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #638dc7;
+}
+
+.forumtopictoptitle a {
+	color: #	;
+}
+
+.forumtopictoptitle a:hover {
+	text-decoration: underline;
+}
+
+.forumtopictoptitle span {
+	font-size: 15px;
+}
+
+.required {
+	padding-left: 15px;
+	background: url(../../images/style/sprites_common.gif) 5px -305px no-repeat;
+}
+
+.alert,a.alert:link,a.alert:visited,a.alert:active {
+	color: #f60;
+}
+
+input.buttonstyle2 {
+	border: 1px solid #003C74;
+	color: #000;
+	font: bold 11px tahoma;
+	padding: 2px;
+	background: url(../../images/style/buttonstyle2.gif) #ABC1F4 bottom repeat-x;
+}
+
+input.buttonstyle1 {
+	font: 11px;
+	padding: 2px;
+}
+
+.img {
+	padding:1px;
+	border:#dddddd solid 1px;
+	margin-right:3px
+}
+
+/* ------ MAIN PAGES STYLE BEGIN ------*/
+div.mainborder {
+	border-bottom: 1px solid #638dc7;
+}
+
+div.mainborder .mainleftimage {
+	background-image: url('../images/tabmenuactive_blue_left.png');
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 25px;
+}
+
+div.mainborder .mainrightimage {
+	background-image: url('../images/tabmenuactive_blue_right.png');
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 25px;
+}
+
+div.mainborder .maincenterimage {
+	background-image: url('../images/tabmenuactive_blue_center.gif');
+	background-repeat: repeat-x;
+}
+
+div.mainborder div.mainpagetitle {
+	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	/*text-transform: uppercase;*/
+}
+div.mainborder .mainpagetitle a{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	/*text-transform: uppercase;*/
+}
+div.mainborder .mainpagetitle a:hover{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	/*text-transform: uppercase;*/
+	text-decoration: underline;
+}
+div.mainborder .mainpagetitle span{
+	text-transform: none;
+}
+.graylabel{
+	color: #808080;
+}
+.bottomtitlebrigth{
+	background-color: #cfdce5;
+	color: #777; 
+	padding: 4px;
+	text-decoration: none;
+}
+.bottomtitle{
+	background-color: #eeeeee;
+	color: #444444; 
+	padding: 4px;
+	text-decoration: none;
+}
+/* ------ MAIN PAGES STYLE END ------*/
