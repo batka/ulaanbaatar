@@ -110,7 +110,7 @@
 		if($j1%2==1) $marginl="margin-left: 10px";
 		else $marginl="";
 ?>
-			<div style="float: left; width: 49%; min-height:380px; <?=$marginl;?>">
+			<div style="float: left; width: 49%; height:380px; <?=$marginl;?>">
 			<li class="topbrdr">
 				<p class="pmdate">Огноо: <?=$row1[$j1]['PhotoNewsDate'];?></p>
 <?php

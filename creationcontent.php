@@ -96,7 +96,7 @@ $(function() {
 		if($j1%2==1) $marginl="margin-left: 10px";
 		else $marginl="";
 ?>
-			<div style="float: left; width: 49%; max-height:380px; overflow:hidden; <?=$marginl;?>">
+			<div style="float: left; width: 49%; height:350px; overflow:hidden; <?=$marginl;?>">
 				<div id="capslide_img_cont<?=$j1;?>" class="ic_container">
 <?php
 		$imagesource=$drf."/files/creation/small/".$row1[$j1]['ImageSource'];
@@ -105,7 +105,7 @@ $(function() {
 ?>
 					<a href="<?=$rf;?>/creation/detail/<?=$row1[$j1]['CreationID'];?>">
 					
-					<img src="<?=$imagesource;?>" width="100%" height="80%"  style="margin: 5px 0px; height:auto !important;" alt=""/></a>
+					<img src="<?=$imagesource;?>" style="max-height:300px; max-width: 300px; margin: 5px 0px;" alt=""/></a>
 <?php
 		} 
 ?>

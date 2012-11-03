@@ -143,7 +143,7 @@
             <span class="icon-bar"></span>
           </a>
 
-          <div class="brand" style="font-size:12px;"><p style="margin:0;">&copy; 2012. Улаанбаатар хот. <a href="<?=$rf;?>/home">Нийслэлийн Мэдээлэл Технологийн Газар</a>. | Вэб дизайныг <a href="http://www.facebook.com/gembow.e" target="_blank">Гүнбилэгт</a></p></div>
+          <div class="brand" style="font-size:12px;"><p style="margin:0;">&copy; 2012. Улаанбаатар хот. <a href="<?=$rf;?>/home">Нийслэлийн Мэдээлэл Технологийн Газар</a>. </p></div>
           
           <div class="nav-collapse collapse">
               

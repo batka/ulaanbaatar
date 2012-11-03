@@ -1,9 +1,7 @@
 <title><?=$pagetitle1;?></title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<link href="<?=$rf;?>/images/web/icon.gif" rel="SHORTCUT ICON">
-
-	<link href="/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<style type="text/css">
   body {
     padding-top: 0px;
     padding-bottom: 0;
@@ -17,12 +15,14 @@
 	    padding-bottom: 40px;
 	  }
   }
+
 </style>
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      
     <![endif]-->
 
     <!-- Le fav and touch icons -->
@@ -36,28 +36,3 @@
     <link rel="stylesheet" type="text/css" href="/js/jquery/jquery.datepick/smoothness.datepick.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.sudoSlider.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){	
-			$("#slider").sudoSlider({
-				controlsShow:false,
-				numeric:false,
-				auto:true,
-				fade:true,
-				pause:'5000',
-				continuous:true,
-				slideCount:2,				
-			});
-		});	
-	</script>
-	
-	<script type="text/javascript">
-		$('.dropdown-toggle').dropdown()
-	</script>
-		<script type="text/javascript">
-			$(function () {
-		    $('body').on('hover.tab.data-api', '[data-toggle="tab"], [data-toggle="pill"]', function (e) {
-		      e.preventDefault()
-		      $(this).tab('show')
-		    })
-		  })
-		</script>

@@ -1,8 +1,8 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#photos').galleryView({
-			panel_width: 850,
-			panel_height: 500,
+			panel_width: 650,
+			panel_height: 400,
 			frame_width: 90,
 			frame_height: 60
 		});

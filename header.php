@@ -23,17 +23,8 @@
 </style>
 
 <script type="text/javascript">
-	jQuery(document).ready(function(){
-		jQuery("#newsline").ticker({
-	 		cursorList:  " ",
-	 		rate:        10,
-	 		delay:       4000
-		}).trigger("play").trigger("play"); 
-		jQuery("#newsline").trigger("play");	
-  	});
   	
-	$(document).ready(
-		function(){
+	/*$(document).ready(function(){
 			$('ul#animated-panorama').animatedinnerfade({
 				speed: 2000,
 				timeout: 15000,
@@ -60,7 +51,7 @@
 				controlBox: 'none',
 				displayTitle: 'none'
 			});
-	});
+	});*/
 </script>
 <div class="head">
 	<div class="container">

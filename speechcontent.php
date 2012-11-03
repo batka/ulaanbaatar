@@ -124,7 +124,7 @@
 		<div style="float: left; width: 100%; <?=$marginl;?>" >
 			<li class="topbrdr">
 				<p class="pmdate">Огноо: <?=$row1[$j1]['SpeechDate'];?></p>
-				<h2><a title="" href="<?=$rf;?>/speech/detail/<?=$row1[$j1]['SpeechID'];?>"><?=GetStrBr($row1[$j1]['Title'], "80");?></a></h2>
+				<h3><a title="" href="<?=$rf;?>/speech/detail/<?=$row1[$j1]['SpeechID'];?>"><?=GetStrBr($row1[$j1]['Title'], "80");?></a></h3>
 <?php
 		$imagesource=$drf."/files/speech/small/".$row1[$j1]['ImageSource'];
 		if (!empty($row1[$j1]['ImageSource']) && file_exists($imagesource)){

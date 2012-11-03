@@ -10,17 +10,18 @@
 }
 
 .hdtitle {
-	color: #00a1e0;
-	font-size: 24px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #f2f2f2;
-	text-align: center;
-	text-transform: uppercase;
-	line-height: 28px;
+	color: #00A1E0;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F2F2F2;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 28px;
 }
 
-
+.tab-icon, .tab-icon img{max-width: 25px}
+.tab-icon-desc {max-width: 100px}
 .subhd {
 	font-size: 16px;
 	margin: 20px 0px;
@@ -30,23 +31,11 @@
 	margin-left: 10px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pmdate {
+  font-size: 10px; 
+  color: #999;
+  text-align: right;
+}
 
 article,
 aside,
@@ -189,7 +178,7 @@ ol li a:focus, .prevBtn a:focus, .nextBtn a:focus{outline:none;}
   min-height: 40px;
   padding-right: 0px;
   padding-left: 0px;
-  background-color: #fafafa;
+  background-color: #0061A0;
   background-image: -moz-linear-gradient(top, #123e6f, #0061a0);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#123e6f), to(#0061a0));
   background-image: -webkit-linear-gradient(top, #123e6f, #0061a0);

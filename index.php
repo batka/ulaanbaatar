@@ -2,29 +2,27 @@
 	require_once 'libraries/connect.php';
 	$con = new Database ( );
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<HTML xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<?php
-	require_once 'headerstyle.php';
-?>
-<script type="text/javascript">
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<?php
+		require_once 'headerstyle.php';
+	?>
+	<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29342417-1']);
-  _gaq.push(['_trackPageview']);
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29342417-1']);
+	  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
-</script>
+	</script>
 
 </head>
 <body>
@@ -50,7 +48,7 @@
 <div class="row-fluid">
   <div class="span4" style="min-height:500px;">
 	  <div class="page-header">
-	  <h3>ТОП МЭДЭЭ <small></small></h3>
+	  <h3>ШИНЭ МЭДЭЭ<small></small></h3>
 	  </div>
 	  <div class="tabbable"> <!-- Only required for left/right tabs -->
 		  <ul class="nav nav-tabs">
@@ -94,7 +92,7 @@
 ?>
 					<span style="font-size: 10px; color: #999">Огноо: <?=$row[$j]['NewsDate'];?></span>
 					</div>
-					<h4><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>" title="<?=$row[$j]['Title'];?>"><?=GetStrBr($row[$j]['Title'], "35");?></a></h4>
+					<h5><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>" title="<?=$row[$j]['Title'];?>"><?=GetStrBr($row[$j]['Title'], "35");?></a></h5>
 					<p><?=GetStrBr($row[$j]['Intro'], "70");?></p>
 					<div class="clear"></div>
 				</li>
@@ -138,7 +136,7 @@
 ?>
 					<span style="font-size: 10px; color: #999">Огноо: <?=$row[$j]['NewsDate'];?></span>
 					</div>
-					<h4><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>" title="<?=$row[$j]['Title'];?>"><?=GetStrBr($row[$j]['Title'], "35");?></a></h4>
+					<h5><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>" title="<?=$row[$j]['Title'];?>"><?=GetStrBr($row[$j]['Title'], "35");?></a></h5>
 					<p><?=GetStrBr($row[$j]['Intro'], "70");?></p>
 					<div class="clear"></div>
 				</li>
@@ -180,7 +178,7 @@
 ?>
 					<span style="font-size: 10px; color: #999">Огноо: <?=$row[$j]['NewsDate'];?></span>
 					</div>
-					<h4><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>" title="<?=$row[$j]['Title'];?>"><?=GetStrBr($row[$j]['Title'], "35");?></a></h4>
+					<h5><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>" title="<?=$row[$j]['Title'];?>"><?=GetStrBr($row[$j]['Title'], "35");?></a></h5>
 					<p><?=GetStrBr($row[$j]['Intro'], "70");?></p>
 					<div class="clear"></div>
 				</li>
@@ -367,14 +365,14 @@
 					while ($j<$rowcount-6) {
 						
 				?>
-				<div style="width: 341px; float: left; margin-bottom: 10px; margin-left: 20px;">
+				<div>
 					<table cellpadding="0" cellspacing="0" width="100%" border="0">
 						<tr>
-							<td width="40">
-								<img src="<?=$rf;?>/images/icon/32x32/<?=$row[$j]['ServiceClassID'];?>.png" style="float: left; margin-right: 5px" width="30"/>
+							<td class="tab-icon">
+								<img src="<?=$rf;?>/images/icon/32x32/<?=$row[$j]['ServiceClassID'];?>.png" style="float: left; margin-right: 5px"/>
 							</td>
-							<td>
-								<a href="<?=$rf;?>/service/<?=$row[$j]['ServiceClassID'];?>" style="line-height: 17px; font-size: 12px; font-weight: bold; color: #16387c;">
+							<td class="tab-icon-desc">
+								<a href="<?=$rf;?>/service/<?=$row[$j]['ServiceClassID'];?>" style="line-height: 17px; font-size: 12px; color: #16387c;">
 									<?=$row[$j]['ServiceClassName'];?>
 								</a>
 							</td>
@@ -394,14 +392,14 @@
 			    	while ($j<$rowcount) {
 						
 				?>
-				<div style="width: 341px; float: left; margin-bottom: 10px; margin-left: 20px;">
+				<div >
 					<table cellpadding="0" cellspacing="0" width="100%" border="0">
 						<tr>
-							<td width="40">
-								<img src="<?=$rf;?>/images/icon/32x32/<?=$row[$j]['ServiceClassID'];?>.png" style="float: left; margin-right: 5px" width="30"/>
+							<td class="tab-icon">
+								<img src="<?=$rf;?>/images/icon/32x32/<?=$row[$j]['ServiceClassID'];?>.png" style="float: left; margin-right: 5px"/>
 							</td>
-							<td>
-								<a href="<?=$rf;?>/service/<?=$row[$j]['ServiceClassID'];?>" style="line-height: 17px; font-size: 12px; font-weight: bold; color: #16387c;">
+							<td class="tab-icon-desc">
+								<a href="<?=$rf;?>/service/<?=$row[$j]['ServiceClassID'];?>" style="line-height: 17px; font-size: 12px; color: #16387c;">
 									<?=$row[$j]['ServiceClassName'];?>
 								</a>
 							</td>

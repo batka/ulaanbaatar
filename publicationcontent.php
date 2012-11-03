@@ -140,7 +140,7 @@
 <?php
 		} 
 ?>
-				<h2><a title="" href="<?=$rf;?>/publication/detail/<?=$row1[$j1]['PublicationNewsID'];?>"><?=GetStrBr($row1[$j1]['Title'], "80");?></a></h2>
+				<h3><a title="" href="<?=$rf;?>/publication/detail/<?=$row1[$j1]['PublicationNewsID'];?>"><?=GetStrBr($row1[$j1]['Title'], "80");?></a></h3>
 				<div><?=GetStrBr($row1[$j1]['Descr'], "350");?></div>
 				<div style="text-align: right;"><a href="<?=$rf;?>/publication/detail/<?=$row1[$j1]['PublicationNewsID'];?>" class="linkext"><?=$strMore;?></a></div>
 				<div class="clear"></div>

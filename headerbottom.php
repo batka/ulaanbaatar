@@ -26,7 +26,11 @@
 			$j=0;
 			while ($j<$rowcount){
 		?>
-			    <div><a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>"><?=GetStrBr($row[$j]['Title'], "100");?>. [<?=$row[$j]['NewsDate'];?>]</a></div>
+		<div>
+			<a href="<?=$rf;?>/news/detail/<?=$row[$j]['NewsID'];?>">
+				<?=GetStrBr($row[$j]['Title'], "100");?>. [<?=$row[$j]['NewsDate'];?>]
+			</a>
+		</div>
 		<?php
 			$j++;
 			}

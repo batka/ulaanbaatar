@@ -150,7 +150,7 @@
 <?php
 		} 
 ?>
-				<h2><a title="" href="<?=$rf;?>/news/detail/<?=$row1[$j1]['NewsID'];?>"><?=$row1[$j1]['Title'];?></a></h2>
+				<h3><a title="" href="<?=$rf;?>/news/detail/<?=$row1[$j1]['NewsID'];?>"><?=$row1[$j1]['Title'];?></a></h3>
 				<div><?=GetStrBr($row1[$j1]['Intro'], "350");?></div>
 				<div style="text-align: right;"><a href="<?=$rf;?>/news/detail/<?=$row1[$j1]['NewsID'];?>" class="linkext"><?=$strMore;?></a></div>
 				<div class="clear"></div>
